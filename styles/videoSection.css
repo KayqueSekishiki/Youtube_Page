@@ -9,6 +9,7 @@
 }
 
 .video-title {
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 
@@ -16,9 +17,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 1vw;
 }
 
 .channel-infos {
+  width: 12vw;
   display: flex;
   gap: 1vw;
 }
@@ -34,7 +37,7 @@
 }
 
 .action-button--subscribe {
-  width: 15vw;
+  width: 12vw;
   border: none;
   background-color: #cc0000;
   color: #ffffff;
