@@ -39,8 +39,12 @@
       </header>
       <main class="main">
         <section class="video">
-          <img src="./assets/videoSection/background.svg" alt="video" />
-          <h1 class="video--title">
+          <img
+            class="video-background"
+            src="./assets/videoSection/background.svg"
+            alt="video"
+          />
+          <h1 class="video-title">
             Semana Frond-ed | Dia 01: Construindo uma Landing Page no Mundo
             Invertido com HTML e CSS
           </h1>
@@ -51,34 +55,36 @@
                 src="./assets/videoSection/channelAvatar.svg"
                 alt="channel"
               />
-              <div class="channel-nameAndSubs">
-                <h2>DIO</h2>
-                <span>83,3 mil inscritos</span>
+              <div class="channel-nameAndSubsContainer">
+                <span class="channel-name">DIO</span>
+                <span class="channel-subs">83,3 mil inscritos</span>
               </div>
             </div>
-            <button type="button">INSCREVA-SE</button>
-            <button class="video-like">
-              <img src="./assets/videoSection/thumbs-up.svg" alt="gostei" />
-              <span>2 mil</span>
+            <button class="action-button--subscribe" type="button">
+              <h2>INSCREVA-SE</h2>
             </button>
-            <button class="video-deslike">
+            <button class="action-button video-like">
+              <img src="./assets/videoSection/thumbs-up.svg" alt="gostei" />
+              <h2>2 mil</h2>
+            </button>
+            <button class="action-button video-deslike">
               <img
                 src="./assets/videoSection/thumbs-down.svg"
                 alt="não gostei"
               />
-              <span>Não Gostei</span>
+              <h2>Não Gostei</h2>
             </button>
-            <button class="video-share">
+            <button class="action-button video-share">
               <img src="./assets/videoSection/share.svg" alt="compartilhar" />
-              <span>Compartilhar</span>
+              <h2>Compartilhar</h2>
             </button>
 
-            <button class="video-download">
+            <button class="action-button video-download">
               <img
                 src="./assets/videoSection/download.svg"
                 alt="fazer download"
               />
-              <span>Download</span>
+              <h2>Download</h2>
             </button>
           </div>
           <h3>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</h3>
