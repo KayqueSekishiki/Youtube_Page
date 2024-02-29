@@ -1,9 +1,3 @@
-.video {
-  width: 60vw;
-  padding-left: 2vw;
-  padding-top: 2vh;
-}
-
 .video-background {
   width: 100%;
 }
@@ -56,7 +50,7 @@
 }
 
 .video p {
-  width: 60%;
+  width: 80%;
   font-size: 1rem;
   color: #515151;
 }

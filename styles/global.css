@@ -9,11 +9,43 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+header {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vh 2vw;
+
+  background-color: #ffffff;
+}
+
+main {
+  height: 95vh;
+  display: flex;
+  gap: 1vw;
+}
+
+.video {
+  max-width: 65vw;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+
+  width: 35vw;
+  padding-top: 2vh;
+  padding-right: 2vh;
+}
+
 img {
   cursor: pointer;
 }
 
 .container {
-  height: 1080px;
   width: 1920px;
+  height: 1080px;
 }
