@@ -1,0 +1,13 @@
+.video {
+  height: 1000;
+  width: 60vw;
+  background-color: blueviolet;
+}
+
+.video-actions {
+  display: flex;
+}
+
+.channel-infos {
+  display: flex;
+}
