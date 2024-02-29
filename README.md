@@ -1,6 +1,8 @@
 # Youtube_Page
 Reproduzindo o visual da página inicial do Youtube, utilizando HTML e CSS
 
+## Link
+[Landing Page](https://kayquesekishiki.github.io/Youtube_Page/)
 
 ## Figma
 <p>Figma do projeto disponibilizado pela equipe da DIO.</p>
