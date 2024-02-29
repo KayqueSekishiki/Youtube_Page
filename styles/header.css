@@ -25,6 +25,8 @@
 .header--center input {
   width: 90%;
   height: 3vh;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 .header--center img {
   max-width: 10%;
